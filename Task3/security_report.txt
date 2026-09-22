@@ -1,0 +1,38 @@
+SECURE CODE ASSESSMENT REPORT
+
+Application: Sample Python Login Application
+Language: Python
+
+1. Password Exposure
+Issue:
+The vulnerable version displays the password on the screen.
+
+Risk:
+Sensitive information can be exposed to other users.
+
+Fix:
+Do not display or print passwords.
+
+2. No Input Validation
+Issue:
+The vulnerable version does not properly check the username input.
+
+Risk:
+Invalid or unexpected input may be accepted.
+
+Fix:
+Validate user input before processing it.
+
+3. Insecure Password Handling
+Issue:
+The vulnerable version does not use secure password handling.
+
+Risk:
+Passwords may be exposed or stored insecurely.
+
+Fix:
+Use secure password handling and never display passwords.
+
+Conclusion:
+The secure version improves the application by avoiding password
+exposure and adding basic input validation.
